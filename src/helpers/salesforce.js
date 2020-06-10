@@ -1,0 +1,1 @@
+export const isSalesForce = baseUrl => !!baseUrl && window.self !== window.top && baseUrl.includes('orce.com');
